@@ -1,0 +1,25 @@
+.appear {
+  opacity: 0;
+  transform: scale(0.8) translateZ(0);
+  transition: all 400ms ease-in-out;
+  transition-delay: 200ms;
+}
+
+.appear.d0 {
+  transition-delay: 200ms;
+}
+
+.appear.d1 {
+  transition-delay: 400ms;
+}
+.appear.d2 {
+  transition-delay: 500ms;
+}
+.appear.d3 {
+  transition-delay: 600ms;
+}
+
+.appear.animate {
+  opacity: 1;
+  transform: scale(1);
+}

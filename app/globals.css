@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.font-secondary {
+  font-family: system-ui, Helvetica Neue, Helvetica, Arial;
+}
+
+.marquee-carousel .carousel .slider-wrapper {
+  overflow: hidden; /* Hide any overflow to create a smooth scrolling effect */
+}
+
+.marquee-carousel .carousel .slide {
+  width: 100%; /* Ensure each slide takes up full width */
+}
+
+/* Optional: Customize the appearance further */
+.marquee-carousel .carousel .slider {
+  display: flex; /* Keep slides in a row */
+}
+
+.marquee-carousel .carousel .slider-wrapper.axis-horizontal .slider {
+  animation: marquee-scroll 50s linear infinite; /* Infinite scrolling animation */
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.wiggle {
+  animation: wiggleAnimation 3.5s infinite;
+}
+
+@keyframes wiggleAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  65% {
+    transform: rotate(5deg);
+  }
+  70% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  85% {
+    transform: rotate(5deg);
+  }
+  95% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.blink-bg {
+  color: #fff;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  animation: blinkingBackground 1s infinite;
+  opacity: 0.2;
+}
+
+@keyframes blinkingBackground {
+  0% {
+    background-color: #10c018;
+  }
+  25% {
+    background-color: #1056c0;
+  }
+  50% {
+    background-color: #ef0a1a;
+  }
+  75% {
+    background-color: #254878;
+  }
+  100% {
+    background-color: #04a1d5;
+  }
+}
+
+.strobe {
+  animation: strobe 0.1s ease-in-out infinite;
+}
+
+@keyframes strobe {
+  0% {
+    scale: 1;
+    transform-origin: center center;
+  }
+  100% {
+    scale: 1.02;
+    transform-origin: center center;
+  }
+}
+
+.animate-bounce-fast {
+  animation: bounce 0.5s linear infinite;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: bounce;
+  animation-timeline: auto;
+  animation-range-start: normal;
+  animation-range-end: normal;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.gradient {
+  background: #0000 linear-gradient(90deg, #ffb000 30%, #fbcb4f) 0 0 no-repeat
+    padding-box;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+.bg-center {
+  background-position: 50%;
+}
+.bg-cover {
+  background-size: cover;
+}
+.bg-pov {
+  background-image: url("../public/images/pov.gif");
+}

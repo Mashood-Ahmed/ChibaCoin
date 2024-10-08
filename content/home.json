@@ -1,0 +1,193 @@
+{
+  "Integration": {
+    "heading": "Integrations",
+    "subHeading": "discover the power of $ponke. trade on top exchanges, manage your assets with popular wallets, and even book travel. see where your $ponke can take you!",
+    "categories": ["Featured", "CEX", "DEX", "Wallet", "Travel", "Misc"],
+    "cards": [
+      {
+        "id": "1",
+        "title": "coinbase wallet",
+        "info": "Store & swap $ponke with coinbase wallet",
+        "img": "/images/integrations/coinbasewallet.png",
+        "href": "https://wallet.coinbase.com",
+        "category": [4, 1]
+      },
+      {
+        "id": "2",
+        "title": "jupiter",
+        "info": "Find the best rates for trading $PONKE on Jupiter, Solana's top aggregator.",
+        "img": "/images/integrations/jupiter.jpg",
+        "href": "https://jup.ag/swap/SOL-PONKE",
+        "category": [3, 1]
+      },
+      {
+        "id": "3",
+        "title": "bybit",
+        "info": "Trade $PONKE on Bybit, a top global exchange known for its ultra-fast matching engine and 24/7 support.",
+        "img": "/images/integrations/bybit.png",
+        "href": "https://www.bybit.com/en/trade/spot/PONKE/USDT",
+        "category": [2, 1]
+      },
+      {
+        "id": "4",
+        "title": "phantom",
+        "info": "Manage and trade $PONKE seamlessly with Phantom, the most popular Solana wallet.",
+        "img": "/images/integrations/phantom.jpg",
+        "href": "https://phantom.app/",
+        "category": [4, 1]
+      },
+      {
+        "id": "4",
+        "title": "gmci meme index",
+        "info": "The 'GMCI Meme' contains the leading meme coins by market capitalization.",
+        "img": "/images/integrations/gmci.jpg",
+        "href": "https://www.gmci.co",
+        "category": [6, 1]
+      },
+      {
+        "id": "5",
+        "title": "travala",
+        "info": "Book millions of hotels & flights globally & pay with $PONKE.",
+        "img": "/images/integrations/travala.jpg",
+        "href": "https://www.travala.com",
+        "category": [5, 1]
+      },
+      {
+        "id": "6",
+        "title": "travel swap",
+        "info": "Book hotels, and vacation stays on TravelSwap with $PONKE.",
+        "img": "/images/integrations/travelswap.jpg",
+        "href": "https://travelswap.xyz",
+        "category": [5, 1]
+      },
+      {
+        "id": "7",
+        "title": "okx wallet",
+        "info": "Store & Swap $PONKE with OKX Wallet",
+        "img": "/images/integrations/okxdex.png",
+        "href": "https://www.okx.com/web3",
+        "category": [4, 1, 3]
+      },
+      {
+        "id": "8",
+        "title": "cryto.com",
+        "info": "Buy and sell $ponke on crpto.com, a platfrom offering seamless trading and integrated crpto services",
+        "img": "/images/integrations/cdc.png",
+        "href": "https://crypto.com/exchange/trade/PONKE_USD",
+        "category": [2, 1]
+      },
+      {
+        "id": "9",
+        "title": "GATE",
+        "info": "Trade $ponke on gate.io, a trusted platfrom for trading alticoins with advanced tool",
+        "img": "/images/integrations/gate.png",
+        "href": "https://www.gate.io/trade/PONKE_USDT",
+        "category": [2]
+      },
+      {
+        "id": "10",
+        "title": "htx",
+        "info": "Trade $ponke on HTX(formerly huobi), a leading exchange with globle user base",
+        "img": "/images/integrations/htx.jpg",
+        "href": "https://www.htx.com/trade/ponke_usdt?type=spot",
+        "category": [2]
+      },
+      {
+        "id": "11",
+        "title": "bitget",
+        "info": "Explore $ponke on bitgit,known for its innovative copy trading feature",
+        "img": "/images/integrations/bitget.png",
+        "href": "https://www.bitget.com/en-GB/spot/PONKEUSDT",
+        "category": [2]
+      },
+      {
+        "id": "12",
+        "title": "woox",
+        "info": "Trade $ponke efficently on woox, a platform optimized for liquidity and low fees.",
+        "img": "/images/integrations/woo.jpg",
+        "href": "https://x.woo.org/en/trade/PONKE_USDT",
+        "category": [2]
+      },
+      {
+        "id": "13",
+        "title": "poloniex",
+        "info": "Buy and sell $ponke on poloniex, apioneer in crypto space with wide range of assets",
+        "img": "/images/integrations/poloniex.png",
+        "href": "https://poloniex.com/trade/PONKE_USDT/?type=spot",
+        "category": [2]
+      },
+      {
+        "id": "14",
+        "title": "bitmart",
+        "info": "Trade $ponke on bitmart, a user-friendly exchange with globle reach",
+        "img": "/images/integrations/bitmart.jpg",
+        "href": "https://www.bitmart.com/trade/en-US?symbol=PONKE_USDT&layout=basic",
+        "category": [2]
+      },
+      {
+        "id": "15",
+        "title": "lbank",
+        "info": "Buy and sell $ponke on lBank,known for it esay-to-use interface and extensive token listing",
+        "img": "/images/integrations/lbank.jpg",
+        "href": "https://www.lbank.com/trade/ponke_usdt",
+        "category": [2]
+      },
+      {
+        "id": "16",
+        "title": "bitrue",
+        "info": "Trade $ponke on biture,a platform designed for simplicity and security",
+        "img": "/images/integrations/bitrue.jpg",
+        "href": "https://www.bitrue.com/trade/ponke_usdt?inviteCode=EWHZTGL",
+        "category": [2]
+      },
+      {
+        "id": "17",
+        "title": "mexc",
+        "info": "Trade $ponke on mexc, ap popular exchange for a wide range of crpto assets",
+        "img": "/images/integrations/mexc.jpg",
+        "href": "https://www.mexc.com/exchange/PONKE_USDT",
+        "category": [2]
+      },
+      {
+        "id": "18",
+        "title": "raydium",
+        "info": "Swap $ponke on raydium,a leading DEX on solana",
+        "img": "/images/integrations/raydium.jpg",
+        "href": "https://raydium.io/swap/?inputMint=sol&outputMint=5z3EqYQo9HiCEs3R84RCDMu2n7anpDMxRhdK8PSWmrRC",
+        "category": [3]
+      },
+      {
+        "id": "19",
+        "title": "orca",
+        "info": "Trade $ponke on orca,a user-friendly DE on solana",
+        "img": "/images/integrations/orca.jpg",
+        "href": "https://www.orca.so/?inputToken=SOL&outputToken=PONKE&tokenIn=So11111111111111111111111111111111111111112&tokenOut=5z3EqYQo9HiCEs3R84RCDMu2n7anpDMxRhdK8PSWmrRC",
+        "category": [3]
+      },
+      {
+        "id": "20",
+        "title": "Step finance",
+        "info": "Trade $ponke on step finance, the portfolio manager for solana",
+        "img": "/images/integrations/stepfinance.jpg",
+        "href": "https://app.step.finance/en/swap/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v-5z3EqYQo9HiCEs3R84RCDMu2n7anpDMxRhdK8PSWmrRC?inputToken=SOL&outputToken=PONKE",
+        "category": [3]
+      },
+      {
+        "id": "21",
+        "title": "solflare",
+        "info": "Store your $ponke in solfare,one of solana's most popular wallets",
+        "img": "/images/integrations/solflare.jpg",
+        "href": "https://solflare.com",
+        "category": [4]
+      },
+      {
+        "id": "22",
+        "title": "magic eden wallet",
+        "info": "Store your $ponke in magic eden wallet",
+        "img": "/images/integrations/magiceden.png",
+        "href": "https://wallet.magiceden.io",
+        "category": [4]
+      }
+    ]
+  }
+}
